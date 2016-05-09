@@ -1,0 +1,6 @@
+{
+  "name": "iOS100Days",
+  "tagline": "Practices and Demos for iOS study",
+  "body": "# Welcome to the iOS100Days!\r\n\r\n***\r\n\r\n### This project contains all iOS practices and demos I made using the time learn iOS and Swift.\r\n\r\n***\r\n1. Login & Logout with Facebook SDK\r\n   * configure FBSDK\r\n   * Login/logout, check token\r\n   * read permission\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
