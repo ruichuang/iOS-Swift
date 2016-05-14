@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3EBAEED1CE569A3004BB346 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EBAEEC1CE569A3004BB346 /* Models.swift */; };
 		B3EC6DE31CE2CEEF00BC15B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC6DE21CE2CEEF00BC15B8 /* AppDelegate.swift */; };
 		B3EC6DE51CE2CEEF00BC15B8 /* FearuredAppsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EC6DE41CE2CEEF00BC15B8 /* FearuredAppsViewController.swift */; };
 		B3EC6DE81CE2CEEF00BC15B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3EC6DE61CE2CEEF00BC15B8 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3EBAEEC1CE569A3004BB346 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		B3EC6DDF1CE2CEEF00BC15B8 /* MockAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MockAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3EC6DE21CE2CEEF00BC15B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3EC6DE41CE2CEEF00BC15B8 /* FearuredAppsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearuredAppsViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			children = (
 				B3EC6DE21CE2CEEF00BC15B8 /* AppDelegate.swift */,
 				B3EC6DE41CE2CEEF00BC15B8 /* FearuredAppsViewController.swift */,
+				B3EBAEEC1CE569A3004BB346 /* Models.swift */,
 				B3EC6DE61CE2CEEF00BC15B8 /* Main.storyboard */,
 				B3EC6DE91CE2CEEF00BC15B8 /* Assets.xcassets */,
 				B3EC6DEB1CE2CEEF00BC15B8 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				B3EC6DE51CE2CEEF00BC15B8 /* FearuredAppsViewController.swift in Sources */,
 				B3EC6DE31CE2CEEF00BC15B8 /* AppDelegate.swift in Sources */,
 				B3F6A7791CE2DC34004C2566 /* CategoryCell.swift in Sources */,
+				B3EBAEED1CE569A3004BB346 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
