@@ -31,34 +31,39 @@ class AppCategory: NSObject {
     
     static func fatchFeaturedApps(competionHandler: ([AppCategory]) -> ()){
         
-        let urlString = "http://www.statsallday.com/appstore/featured"
-        NSURLSession.sharedSession().dataTaskWithURL(NSURL(string: urlString)!) { (data, response, error) in
-            if error != nil {
-                print(error)
-                return
+        //***********READING LOCAL JSON*************************
+        let path = NSBundle.mainBundle().pathForResource("data", ofType: "json")
+        
+        let data = NSData(contentsOfFile: path!)
+        
+        do {
+            let json = try(NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers))
+            
+            //print(json)
+            var appCategories = [AppCategory]()
+            
+            for dict in json["categories"] as! [[String: AnyObject]] {
+                let appCategory = AppCategory()
+                appCategory.setValuesForKeysWithDictionary(dict)
+                appCategories.append(appCategory)
             }
-            
-            
-            do {
-                let json = try(NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers))
-                
-                
-                var appCategories = [AppCategory]()
-                
-                for dict in json["categories"] as! [[String: AnyObject]] {
-                    let appCategory = AppCategory()
-                    appCategory.setValuesForKeysWithDictionary(dict)
-                    appCategories.append(appCategory)
-                }
-                
-                dispatch_async(dispatch_get_main_queue(), { 
-                    competionHandler(appCategories)
-                })
-            } catch let errr {
-                print(errr)
-            }
-            
-        }.resume()
+            dispatch_async(dispatch_get_main_queue(), {
+                competionHandler(appCategories)
+            })
+        
+        } catch let errr {
+            print(errr)
+        }
+        
+        //++++++++++++++++USING REST API++++++++++++++++++++
+//        let urlString = "url"
+//        NSURLSession.sharedSession().dataTaskWithURL(NSURL(string: urlString)!) { (data, response, error) in
+//            if error != nil {
+//                print(error)
+//                return
+//            }
+//            
+//        }.resume()
     }
     
     static func sampleAppCategories() -> [AppCategory]{
