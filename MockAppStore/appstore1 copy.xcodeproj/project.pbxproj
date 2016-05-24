@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B35D120A1CF2842B00BFD740 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35D12091CF2842B00BFD740 /* DetailController.swift */; };
+		B387AC5C1CF35B1A003D72EB /* ScreenshotCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B387AC5B1CF35B1A003D72EB /* ScreenshotCell.swift */; };
 		C76B41D81C9A99B60049214B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76B41D71C9A99B60049214B /* AppDelegate.swift */; };
 		C76B41DA1C9A99B60049214B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76B41D91C9A99B60049214B /* ViewController.swift */; };
 		C76B41DD1C9A99B60049214B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76B41DB1C9A99B60049214B /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		B35D12091CF2842B00BFD740 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		B387AC5B1CF35B1A003D72EB /* ScreenshotCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenshotCell.swift; sourceTree = "<group>"; };
 		C76B41D41C9A99B60049214B /* appstore1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appstore1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C76B41D71C9A99B60049214B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C76B41D91C9A99B60049214B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C76B41D71C9A99B60049214B /* AppDelegate.swift */,
 				C76B41D91C9A99B60049214B /* ViewController.swift */,
 				B35D12091CF2842B00BFD740 /* DetailController.swift */,
+				B387AC5B1CF35B1A003D72EB /* ScreenshotCell.swift */,
 				C76B41DB1C9A99B60049214B /* Main.storyboard */,
 				C76B41DE1C9A99B60049214B /* Assets.xcassets */,
 				C76B41E01C9A99B60049214B /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				C76B41EA1C9A9BC70049214B /* CategoryCell.swift in Sources */,
 				B35D120A1CF2842B00BFD740 /* DetailController.swift in Sources */,
 				C76B42C21C9FE9250049214B /* Models.swift in Sources */,
+				B387AC5C1CF35B1A003D72EB /* ScreenshotCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
