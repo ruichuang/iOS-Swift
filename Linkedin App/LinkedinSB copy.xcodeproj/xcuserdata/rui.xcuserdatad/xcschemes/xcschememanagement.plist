@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Linkedin.xcscheme</key>
+		<key>LinkedinSB.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>B33989211CF7FDE700B0D002</key>
+		<key>B39ED9571CFD2F8E00121A09</key>
 		<dict>
 			<key>primary</key>
 			<true/>

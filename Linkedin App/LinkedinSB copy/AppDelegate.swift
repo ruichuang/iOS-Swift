@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Linkedin
+//  LinkedinSB
 //
-//  Created by Rui on 2016-05-27.
+//  Created by Rui on 2016-05-30.
 //  Copyright © 2016 Rui. All rights reserved.
 //
 

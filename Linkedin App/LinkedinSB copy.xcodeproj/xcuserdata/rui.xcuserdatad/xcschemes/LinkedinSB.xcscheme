@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B33989211CF7FDE700B0D002"
-               BuildableName = "Linkedin.app"
-               BlueprintName = "Linkedin"
-               ReferencedContainer = "container:Linkedin.xcodeproj">
+               BlueprintIdentifier = "B39ED9571CFD2F8E00121A09"
+               BuildableName = "LinkedinSB.app"
+               BlueprintName = "LinkedinSB"
+               ReferencedContainer = "container:LinkedinSB.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B33989211CF7FDE700B0D002"
-            BuildableName = "Linkedin.app"
-            BlueprintName = "Linkedin"
-            ReferencedContainer = "container:Linkedin.xcodeproj">
+            BlueprintIdentifier = "B39ED9571CFD2F8E00121A09"
+            BuildableName = "LinkedinSB.app"
+            BlueprintName = "LinkedinSB"
+            ReferencedContainer = "container:LinkedinSB.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B33989211CF7FDE700B0D002"
-            BuildableName = "Linkedin.app"
-            BlueprintName = "Linkedin"
-            ReferencedContainer = "container:Linkedin.xcodeproj">
+            BlueprintIdentifier = "B39ED9571CFD2F8E00121A09"
+            BuildableName = "LinkedinSB.app"
+            BlueprintName = "LinkedinSB"
+            ReferencedContainer = "container:LinkedinSB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B33989211CF7FDE700B0D002"
-            BuildableName = "Linkedin.app"
-            BlueprintName = "Linkedin"
-            ReferencedContainer = "container:Linkedin.xcodeproj">
+            BlueprintIdentifier = "B39ED9571CFD2F8E00121A09"
+            BuildableName = "LinkedinSB.app"
+            BlueprintName = "LinkedinSB"
+            ReferencedContainer = "container:LinkedinSB.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
