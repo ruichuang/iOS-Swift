@@ -14,10 +14,19 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var logoImage: UIImageView!
+    @IBOutlet weak var useAsGuestButton: UIButton!
+    @IBOutlet weak var signinButton: UIButton!
+    @IBOutlet weak var joinNowLabel: UILabel!
+    @IBOutlet weak var blurView: UIVisualEffectView!
+    
+    @IBOutlet weak var forgetPassword: UILabel!
+    @IBOutlet weak var signin: UIButton!
+    @IBOutlet weak var email: UITextField!
+    @IBOutlet weak var password: UITextField!
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
-        self.logoImage.center.y += self.view.bounds.height
+        
     }
     
     override func viewDidLoad() {
@@ -49,15 +58,18 @@ class ViewController: UIViewController, UIScrollViewDelegate {
                 
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        blurView.hidden = true
+        self.logoImage.center.y += self.view.bounds.height
+    }
+    
     func scrollViewDidScroll(scrollView: UIScrollView) {
         if scrollView == self.scrollView {
             let currentPage = scrollView.contentOffset.x / UIScreen.mainScreen().bounds.width + 0.5
             self.pageControl.currentPage = Int(currentPage)
         }
     }
-    
-    
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -75,9 +87,27 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     //set status bar color
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
-        
         UIApplication.sharedApplication().statusBarStyle = .Default
     }
+    
+    @IBAction func signinButtonClicked(sender: UIButton) {
+        
+        blurView.hidden = false
+        pageControl.hidden = true
+        useAsGuestButton.hidden = true
+        signinButton.hidden = true
+        joinNowLabel.hidden = true
+        
+        print("?")
+        
+        UIView.animateWithDuration(1) { () -> Void in
+            self.logoImage.center.y -= self.view.bounds.height
+            }
+        
+        print("OK")
+    }
+    
+    
 
 }
 
