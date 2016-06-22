@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B31611491D1A245F004FCDE8 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31611481D1A245F004FCDE8 /* Video.swift */; };
 		B3197F791D11072400C167B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3197F781D11072400C167B5 /* AppDelegate.swift */; };
 		B3197F7B1D11072400C167B5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3197F7A1D11072400C167B5 /* HomeViewController.swift */; };
 		B3197F7E1D11072400C167B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3197F7C1D11072400C167B5 /* Main.storyboard */; };
@@ -14,9 +15,11 @@
 		B3197F831D11072400C167B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3197F811D11072400C167B5 /* LaunchScreen.storyboard */; };
 		B36473191D17AEEA002A6084 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36473181D17AEEA002A6084 /* Extentions.swift */; };
 		B364731D1D17AFC1002A6084 /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B364731C1D17AFC1002A6084 /* VideoCell.swift */; };
+		B3C949411D18C6DD00E577F4 /* MenuBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C949401D18C6DD00E577F4 /* MenuBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B31611481D1A245F004FCDE8 /* Video.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		B3197F751D11072400C167B5 /* YouTube_HomeFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTube_HomeFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3197F781D11072400C167B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3197F7A1D11072400C167B5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		B3197F841D11072400C167B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B36473181D17AEEA002A6084 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 		B364731C1D17AFC1002A6084 /* VideoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		B3C949401D18C6DD00E577F4 /* MenuBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B31611471D1A243F004FCDE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B31611481D1A245F004FCDE8 /* Video.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		B3197F6C1D11072400C167B5 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		B3197F771D11072400C167B5 /* YouTube_HomeFeed */ = {
 			isa = PBXGroup;
 			children = (
+				B31611471D1A243F004FCDE8 /* Model */,
 				B364731E1D17B00E002A6084 /* Controller */,
 				B364731B1D17AF90002A6084 /* View */,
 				B36473171D17AEBF002A6084 /* Helpers */,
@@ -82,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				B364731C1D17AFC1002A6084 /* VideoCell.swift */,
+				B3C949401D18C6DD00E577F4 /* MenuBar.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -166,9 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3197F7B1D11072400C167B5 /* HomeViewController.swift in Sources */,
+				B31611491D1A245F004FCDE8 /* Video.swift in Sources */,
 				B364731D1D17AFC1002A6084 /* VideoCell.swift in Sources */,
 				B3197F791D11072400C167B5 /* AppDelegate.swift in Sources */,
 				B36473191D17AEEA002A6084 /* Extentions.swift in Sources */,
+				B3C949411D18C6DD00E577F4 /* MenuBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
